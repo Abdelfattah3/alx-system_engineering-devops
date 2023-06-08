@@ -1,2 +1,2 @@
 #!/bin/bash
-hmod ugo= hello olleh 
+hmod --reference=olleh hello 
