@@ -1,2 +1,2 @@
 #!/bin/bash
-xp --attributes-only olleh hello 
+chmod --reference=olleh hello 
