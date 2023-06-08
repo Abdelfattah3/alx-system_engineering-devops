@@ -1,2 +1,2 @@
 #!/bin/bash
-hmod --reference=olleh hello 
+xp --attributes-only olleh hello 
