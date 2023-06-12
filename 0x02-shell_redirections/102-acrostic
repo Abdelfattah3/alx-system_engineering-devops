@@ -1,0 +1,2 @@
+#!/bin/bash
+awk -F'[a-z]' '{print $1}' "An Acrostic" | paste -s
