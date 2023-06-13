@@ -1,2 +1,2 @@
 #!/bin/bash
-set USER=whoami| echo "hello $USER"
+printf "hello $USER\n"
