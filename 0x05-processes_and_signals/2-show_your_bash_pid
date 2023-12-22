@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #process id
 # shellcheck disable=SC2009
-ps -uT
+ps -uT -e | grep "bash"
