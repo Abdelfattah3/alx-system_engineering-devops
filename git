@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "input commit"
-read commit
+read -r commit
 
 git add .
 git commit -m"${commit}"
