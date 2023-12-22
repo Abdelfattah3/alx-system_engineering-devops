@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 #process id
-id=$(pgrep 0-what-is-my-pid) | echo "$id"
+id=$(pgrep 0-what-is-my-pid)
+echo "$id"
