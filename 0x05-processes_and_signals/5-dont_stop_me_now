@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#process id
+id=$(ps -u -e | grep 4-to_infinity_and_beyond)
+kill -TERM $id
