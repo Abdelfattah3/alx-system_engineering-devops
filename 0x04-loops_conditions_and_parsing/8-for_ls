@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+files=$(ls)
+for file in $files;
+do
+    file=$(echo "$file" | cut -d"-" -f2)
+    echo "$file"
+done
