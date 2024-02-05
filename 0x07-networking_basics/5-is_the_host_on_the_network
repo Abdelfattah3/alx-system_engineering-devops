@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # shows online devices
 if [ "$#" -ne 1 ]; then
-    echo "Usage: $0 {IP_ADDRESS}"
+    a=5-is_the_host_on_the_network
+    echo "Usage: $a {IP_ADDRESS}"
     exit 1
 fi
 IP_ADDRESS=$1
