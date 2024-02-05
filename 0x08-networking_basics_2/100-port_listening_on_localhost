@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 #connceting to another terminal
-nc -vul localhost 98
+nc -l -p 98
