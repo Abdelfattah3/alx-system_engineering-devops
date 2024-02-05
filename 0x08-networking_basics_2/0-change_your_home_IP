@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#change ip adress
+l_host="127.0.0.2 localhost"
+fb="8.8.8.8 facebook.com"
+echo "$l_host" >> /etc/hosts
+echo "$fb" >> /etc/hosts
